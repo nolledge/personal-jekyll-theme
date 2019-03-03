@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://le4ker.github.io"
+url: "http://www.christof-nolle.de"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -12,7 +12,7 @@ url: "https://le4ker.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /personal-jekyll-theme
+#baseurl: /
 
 # Google tracking id
 
@@ -22,17 +22,17 @@ google-tracking-id: ""
 # If you are not hosted on Github Pages, and your host doesn't support https
 # then you should disable it
 
-force-https: True
+force-https: False 
 
 #############
 # HTML Head #
 #############
 
-lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+lang: "de"
+author: "Christof Nolle"
+title: "{ Christof Nolle }"
+description: "Website of Christof Nolle"
+keywords: "christof, nolle, personal, jekyll, theme"
 favicon: "/img/favicon.ico"
 
 ################
@@ -41,7 +41,7 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/black-lab-glass.ico"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/bg.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -55,30 +55,11 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Christof Nolle"
+  - text: "software developer"
+  - text: "interested in funtional programming"
 
-me-img: "/img/jetpacktocat.png"
-
-# To use facebook profile pic comment the previous line and uncomment the following
-# line, and replace 'user_id' with your facebook user id.
-# Facebook user id can be found by clicking on your profile pic and the large number
-# in the end of the url just before '&type' is your user id.
-# Note: fbid is not the same as user id and user id only contains numbers
-
-# me-img: "https://graph.facebook.com/user_id/picture?type=large&width=500&height=500"
-
-# To use github profile pic uncomment the following line and replace 'user_name'
-# with your github user name.
-
-# me-img: "https://github.com/user_name.png?size=500"
-
-# To use gravatar profile pic uncomment the following line and replace 'email_hash'
-# with your gravatar profile email hash.
-# You can create the email hash by using an online tool like 'http://www.md5hashgenerator.com/'
-# just enter your email and it will generate the hash.
-
-# me-img: "https://www.gravatar.com/avatar/email_hash?s=500"
+me-img: "/img/profile.jpg"
 
 ##############################
 # Color the browser elements #
@@ -107,22 +88,22 @@ icon-192p: "/img/web-app/icon-192p.png"
 
 enable-gesture-navigation: True
 
-post-preview-words: 96
+post-preview-words: 20 
 
 paginate: 5
 
 email-share: True
 fb-share: True
 twitter-share: True
-linkedin-share: True
+linkedin-share: False 
 reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+google-plus-share: False 
+tumblr-share: False 
+pinterest-share: False
+pocket-share: False 
+vkontakte-share: False
 
-disqus-shortname: "personal-jekyll-theme"
+#disqus-shortname: "panossakkos"
 
 syntax-highlight: True
 
@@ -131,22 +112,31 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/timeline/Farbe1.png"
+    date: "2019 - Today"
+    description: "Scala developer for Dreamlines GmbH in Hamburg"
+  - image: "/img/timeline/Farbe4.png"
+    date: "2015 - 2019"
+    description: "Scala developer for CELLULAR GmbH in Hamburg"
+  - image: "/img/timeline/Farbe3.png"
+    date: "2013 - 2015"
+    description: "Java developer for t8y.com GmbH in Hamburg"
+  - image: "/img/timeline/Farbe2.png"
+    date: "2012"
+    description: "Bachelor's degree: Media Systems"
+  - image: "/img/timeline/Farbe1.png"
+    date: "2011 - 2012"
+    description: "PHP developer for FishnetServices in Hamburg"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/Farbe5.png"
 
 ###########
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "mail@christof-nolle.de"
 
 ################
 # Author Blurb #
@@ -156,38 +146,38 @@ email: "your@email.here"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+#author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+#author_blurb_image: "/img/author.png"
 
 ##################
 # Social Buttons #
 ##################
 
 social:
-  - title: "facebook"
-    url: "https://facebook.com/"
-  - title: "twitter"
-    url: "https://twitter.com/"
-  - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-  - title: "rss"
-    url: "/feed.xml"
+    #  - title: "facebook"
+    #url: "https://facebook.com/"
+    #- title: "twitter"
+    #url: "https://twitter.com/"
+    #- title: "github"
+    #url: "https://github.com/PanosSakkos/personal-jekyll-theme"
+    #- title: "bitcoin"
+    #url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    #- title: "rss"
+    #url: "/feed.xml"
 
 ############
 # 404 page #
 ############
 
-err-404-img: "/img/labtocat.png"
+404-img: "/img/labtocat.png"
 
 ##################
 # GPG on Keybase #
 ##################
 
 keybase-username: johnsmith
-keybase-in-social: True
-keybase-in-footer: True
+keybase-in-social: False
+keybase-in-footer: False 
 
 ################################################################################
 
@@ -197,7 +187,7 @@ keybase-in-footer: True
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
+  #Blog: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
 
@@ -214,6 +204,6 @@ paginate_path: "blog/page:num/"
 sass:
   style: compressed
 
-gems:
+plugins:
   - jekyll-paginate
   - jemoji
