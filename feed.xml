@@ -3,8 +3,8 @@
 	<channel>
 		<title>{ Christof Nolle }</title>
 		<description>Website of Christof Nolle</description>
-		<link>http://0.0.0.0:4000</link>
-		<atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://www.christof-nolle.de</link>
+		<atom:link href="http://www.christof-nolle.de/feed.xml" rel="self" type="application/rss+xml" />
 		
 	</channel>
 </rss>
