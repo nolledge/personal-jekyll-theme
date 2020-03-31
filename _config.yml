@@ -57,7 +57,7 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Christof Nolle"
   - text: "software developer"
-  - text: "interested in funtional programming"
+  - text: "interested in functional programming"
 
 me-img: "/img/profile.jpg"
 
